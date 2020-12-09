@@ -15,6 +15,9 @@ sites:
   - name: Bitwarden
     url: https://bitwarden.helflix.app
     icon: https://helflix.app/plugins/images/tabs/bitwarden.png
+  - name: FileBrowser
+    url: https://files.helflix.app
+    icon: https://helflix.app/plugins/images/tabs/filebrowser.png
   - name: Gitea
     url: https://gitea.helflix.app
     icon: https://helflix.app/plugins/images/tabs/gitea.png
