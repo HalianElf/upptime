@@ -4,16 +4,73 @@ repo: upptime # Your Github repository name
 
 # Add your sites here
 sites:
-  - name: Google
-    url: https://www.google.com
-  - name: Wikipedia
-    url: https://en.wikipedia.org
-  - name: Hacker News
-    url: https://news.ycombinator.com
-  - name: Broken Site
-    url: https://thissitedoesnotexist.com
-  - name: Secret Site
-    url: $SECRET_SITE
+  - name: Helflix
+    url: https://helflix.app
+    icon: https://helflix.app/plugins/images/organizr/logo-no-border.png
+  - name: Plex
+    url: https://helflix.app/plex/web/index.html
+    icon: https://helflix.app/plugins/images/tabs/plex.png
+    headers:
+      - "token: $ORG_API_KEY"
+  - name: Bitwarden
+    url: https://bitwarden.helflix.app
+    icon: https://helflix.app/plugins/images/tabs/bitwarden.png
+  - name: Gitea
+    url: https://gitea.helflix.app
+    icon: https://helflix.app/plugins/images/tabs/gitea.png
+  - name: Grafana
+    url: https://grafana.helflix.app
+    icon: https://helflix.app/plugins/images/tabs/grafana.png
+  - name: Tautulli
+    url: https://helflix.app/tautulli/status
+    icon: https://helflix.app/plugins/images/tabs/tautulli.png
+    headers:
+      - "token: $ORG_API_KEY"
+  - name: Ombi
+    url: https://helflix.app/ombi/
+    icon: https://helflix.app/plugins/images/tabs/ombi.png
+    headers:
+      - "token: $ORG_API_KEY"
+  - name: Sonarr
+    url: https://helflix.app/sonarr/
+    icon: https://helflix.app/plugins/images/tabs/sonarr.png
+    headers:
+      - "token: $ORG_API_KEY"
+  - name: Radarr
+    url: https://helflix.app/radarr/
+    icon: https://helflix.app/plugins/images/tabs/radarr.png
+    headers:
+      - "token: $ORG_API_KEY"
+  - name: Lidarr
+    url: https://helflix.app/lidarr/
+    icon: https://helflix.app/plugins/images/tabs/lidarr.png
+    headers:
+      - "token: $ORG_API_KEY"
+  - name: Bazarr
+    url: https://helflix.app/lidarr/
+    icon: https://helflix.app/plugins/images/tabs/lidarr.png
+    headers:
+      - "token: $ORG_API_KEY"
+  - name: SABnzbd
+    url: https://helflix.app/sabnzbd/
+    icon: https://helflix.app/plugins/images/tabs/sabnzbd.png
+    headers:
+      - "token: $ORG_API_KEY"
+  - name: NZBHydra
+    url: https://helflix.app/nzbhyrda/
+    icon: https://helflix.app/plugins/images/tabs/nzbhydra.png
+    headers:
+      - "token: $ORG_API_KEY"
+  - name: Deluge
+    url: https://helflix.app/deluge/
+    icon: https://helflix.app/plugins/images/tabs/deluge.png
+    headers:
+      - "token: $ORG_API_KEY"
+  - name: Jackett
+    url: https://helflix.app/jackett/UI/Login
+    icon: https://helflix.app/plugins/images/tabs/jackett.png
+    headers:
+      - "token: $ORG_API_KEY"
 
 status-website:
   # Add your custom domain below, or remove the next line if you don't have a domain
