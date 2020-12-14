@@ -10,68 +10,98 @@ sites:
   - name: Plex
     url: https://helflix.app/plex/web/index.html
     icon: https://helflix.app/plugins/images/tabs/plex.png
+    expectedStatusCodes:
+      - 200
     headers:
       - "token: $ORG_API_KEY"
   - name: Bitwarden
     url: https://bitwarden.helflix.app
     icon: https://helflix.app/plugins/images/tabs/bitwarden.png
+    expectedStatusCodes:
+      - 200
   - name: FileBrowser
     url: https://files.helflix.app
     icon: https://helflix.app/plugins/images/tabs/filebrowser.png
+    expectedStatusCodes:
+      - 200
   - name: Gitea
     url: https://gitea.helflix.app
     icon: https://helflix.app/plugins/images/tabs/gitea.png
+    expectedStatusCodes:
+      - 200
   - name: Grafana
     url: https://grafana.helflix.app
     icon: https://helflix.app/plugins/images/tabs/grafana.png
+    expectedStatusCodes:
+      - 200
   - name: Tautulli
     url: https://helflix.app/tautulli/status
     icon: https://helflix.app/plugins/images/tabs/tautulli.png
+    expectedStatusCodes:
+      - 200
     headers:
       - "token: $ORG_API_KEY"
   - name: Ombi
     url: https://helflix.app/ombi/
     icon: https://helflix.app/plugins/images/tabs/ombi.png
+    expectedStatusCodes:
+      - 200
     headers:
       - "token: $ORG_API_KEY"
   - name: Sonarr
     url: https://helflix.app/sonarr/
     icon: https://helflix.app/plugins/images/tabs/sonarr.png
+    expectedStatusCodes:
+      - 200
     headers:
       - "token: $ORG_API_KEY"
   - name: Radarr
     url: https://helflix.app/radarr/
     icon: https://helflix.app/plugins/images/tabs/radarr.png
+    expectedStatusCodes:
+      - 200
     headers:
       - "token: $ORG_API_KEY"
   - name: Lidarr
     url: https://helflix.app/lidarr/
     icon: https://helflix.app/plugins/images/tabs/lidarr.png
+    expectedStatusCodes:
+      - 200
     headers:
       - "token: $ORG_API_KEY"
   - name: Bazarr
-    url: https://helflix.app/lidarr/
-    icon: https://helflix.app/plugins/images/tabs/lidarr.png
+    url: https://helflix.app/bazarr/
+    icon: https://helflix.app/plugins/images/tabs/bazarr.png
+    expectedStatusCodes:
+      - 200
     headers:
       - "token: $ORG_API_KEY"
   - name: SABnzbd
     url: https://helflix.app/sabnzbd/
     icon: https://helflix.app/plugins/images/tabs/sabnzbd.png
+    expectedStatusCodes:
+      - 200
     headers:
       - "token: $ORG_API_KEY"
   - name: NZBHydra
     url: https://helflix.app/nzbhyrda/
     icon: https://helflix.app/plugins/images/tabs/nzbhydra.png
+    expectedStatusCodes:
+      - 200
     headers:
       - "token: $ORG_API_KEY"
   - name: Deluge
     url: https://helflix.app/deluge/
     icon: https://helflix.app/plugins/images/tabs/deluge.png
+    expectedStatusCodes:
+      - 200
     headers:
       - "token: $ORG_API_KEY"
   - name: Jackett
     url: https://helflix.app/jackett/UI/Login
     icon: https://helflix.app/plugins/images/tabs/jackett.png
+    expectedStatusCodes:
+      - 200
     headers:
       - "token: $ORG_API_KEY"
 
@@ -84,16 +114,21 @@ status-website:
   publish: true
   logoUrl: https://raw.githubusercontent.com/upptime/upptime.js.org/master/static/img/icon.svg
   name: Upptime
-  introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
-  introMessage: This is a sample status page which uses **real-time** data from our [Github repository](https://github.com/koj-co/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/koj-co/upptime)
+  #introTitle: "**Upptime** is the open-source uptime monitor and status page, powered entirely by GitHub."
+  #introMessage: This is a sample status page which uses **real-time** data from our [Github repository](https://github.com/koj-co/upptime). No server required — just GitHub Actions, Issues, and Pages. [**Get your own for free**](https://github.com/koj-co/upptime)
   navbar:
     - title: Status
       href: /
+    - title: Helflix
+      href: https://helflix.app
     - title: GitHub
       href: https://github.com/$OWNER/$REPO
   links:
     - rel: stylesheet
       href: https://halianelf.github.io/css/dev/upptime.css
+      
+assignees:
+  - HalianElf
 
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
