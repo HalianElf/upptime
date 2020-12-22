@@ -1,7 +1,7 @@
 url: https://helflix.app/lidarr/  
-status: up
-code: 200
-responseTime: 98
-lastUpdated: 2020-12-21T23:11:01.542Z
+status: down
+code: 526
+responseTime: 72
+lastUpdated: 2020-12-22T22:34:14.937Z
 startTime: Wed Dec 09 2020 01:57:18 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
