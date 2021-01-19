@@ -1,7 +1,7 @@
 url: https://helflix.app/jackett/UI/Login
-status: up
-code: 200
-responseTime: 101
-lastUpdated: 2021-01-18T23:30:44.785Z
+status: down
+code: 523
+responseTime: 875
+lastUpdated: 2021-01-19T02:07:57.310Z
 startTime: Wed Dec 09 2020 01:57:21 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
