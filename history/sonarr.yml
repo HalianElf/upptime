@@ -1,7 +1,7 @@
 url: https://helflix.app/sonarr/
-status: up
-code: 200
-responseTime: 85
-lastUpdated: 2021-01-18T23:30:41.972Z
+status: down
+code: 523
+responseTime: 654
+lastUpdated: 2021-01-19T02:06:53.891Z
 startTime: Wed Dec 09 2020 01:57:17 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
