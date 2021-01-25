@@ -84,7 +84,7 @@ sites:
     headers:
       - "token: $ORG_API_KEY"
   - name: NZBHydra
-    url: https://helflix.app/nzbhyrda/
+    url: https://helflix.app/nzbhydra/
     icon: https://helflix.app/plugins/images/tabs/nzbhydra.png
     expectedStatusCodes:
       - 200
