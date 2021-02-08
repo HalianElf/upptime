@@ -1,7 +1,7 @@
 url: https://helflix.app/tautulli/status
-status: up
-code: 200
-responseTime: 145
-lastUpdated: 2021-02-07T23:03:12.659Z
+status: down
+code: 521
+responseTime: 59
+lastUpdated: 2021-02-08T14:54:45.771Z
 startTime: Wed Dec 09 2020 01:57:15 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
