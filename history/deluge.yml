@@ -1,7 +1,7 @@
 url: https://helflix.app/deluge/
-status: up
-code: 200
-responseTime: 143
-lastUpdated: 2021-02-16T23:03:22.351Z
+status: down
+code: 521
+responseTime: 25
+lastUpdated: 2021-02-17T21:47:01.702Z
 startTime: Wed Dec 09 2020 01:57:20 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
