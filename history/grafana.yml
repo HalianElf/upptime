@@ -1,7 +1,7 @@
 url: https://grafana.helflix.app
-status: down
-code: 500
-responseTime: 407
-lastUpdated: 2021-05-14T17:20:57.673Z
+status: up
+code: 200
+responseTime: 270
+lastUpdated: 2021-05-14T17:39:33.539Z
 startTime: Wed Dec 09 2020 01:57:15 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
