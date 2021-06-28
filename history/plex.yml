@@ -1,7 +1,7 @@
 url: https://helflix.app/plex/web/index.html
-status: up
-code: 200
-responseTime: 54
-lastUpdated: 2021-06-27T23:01:16.181Z
+status: down
+code: 520
+responseTime: 662
+lastUpdated: 2021-06-28T19:39:22.053Z
 startTime: Wed Dec 09 2020 01:57:13 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
