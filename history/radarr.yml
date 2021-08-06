@@ -1,7 +1,7 @@
 url: https://helflix.app/radarr/
-status: up
-code: 200
-responseTime: 105
-lastUpdated: 2021-08-05T23:01:13.549Z
+status: down
+code: 521
+responseTime: 26
+lastUpdated: 2021-08-06T10:31:40.829Z
 startTime: Wed Dec 09 2020 01:57:18 GMT+0000 (Coordinated Universal Time)
 generator: Upptime <https://github.com/upptime/upptime>
